@@ -1,0 +1,32 @@
+
+.iframe-wrapper{
+    position: relative;
+    overflow: hidden;
+    padding: 56.25%;
+
+    @media (max-width: 600px){
+        height: 100%;
+        width: 90%;
+        margin-left: 0;
+    }
+
+    @media (max-width: 900px){
+        height: 100%;
+        width: 90%;
+        margin-left: 5px;
+    }
+}
+.iframe-wrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40%;
+    width: 85%;
+
+    @media (max-width: 600px){
+        height: 100%;
+        width: 90%;
+    }
+
+    
+}
