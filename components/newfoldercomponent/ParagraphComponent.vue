@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div  contenteditable="true"></div>
+    <div  contenteditable="true">Hello world</div>
   </div>
 </template>
 

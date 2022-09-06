@@ -1,11 +1,10 @@
 <template>
   <div>
-    <ParagraphComponent :paragraphs="paragraphs" />
+    
   </div>
 </template>
 
 <script>
-import ParagraphComponent from '~/components/newfoldercomponent/ParagraphComponent.vue';
 export default {
     data(){
     return {
@@ -66,7 +65,8 @@ export default {
           
     }
   },
-    components: { ParagraphComponent }
+  
+    
 }
 </script>
 
