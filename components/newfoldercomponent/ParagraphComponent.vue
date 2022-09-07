@@ -1,14 +1,21 @@
 <template>
   <div>
-    <div  contenteditable="true">Hello world</div>
+    <div  contenteditable="true"></div>
   </div>
 </template>
 
 <script>
 export default {
+    data(){
+        return {
+
+
+        }
+    },
 
     props: [
-        'paragraphs'
+        'paragraphs',
+        'index'
     ]
 
 }
